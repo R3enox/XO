@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    margin: 100px 50px 50px 50px;
+}
+
+.content {
+    width: 310px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+
+.item {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+    font-size: 65px;
+    border: 1px solid black;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+    user-select: none
+
+}
+
+.item:hover{
+    background-color: #f1f1f10c;
+}
